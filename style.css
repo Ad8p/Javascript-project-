@@ -1,0 +1,1775 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  background:#282B28;
+}
+#btn{
+  padding:5px 10px;
+  width: 280px;
+  height: 45px;
+  position: absolute;
+  top: 400px;
+  left: 41%;
+font-family: 'Poppins', sans-serif;
+background:#F4D35E ;
+border: none;
+border-radius: 7px;
+cursor: pointer;
+}
+.divi{
+font-family: 'Poppins', sans-serif;
+  background:#F4D35E ;
+position: absolute;
+top: 360px;
+left: 40%;
+width: 400px;
+height: 600px;
+display: grid;
+text-align: center;
+align-items: flex-end;
+z-index: 100;
+border: 1.5px solid #282B28;
+border-radius: 8px;
+transition: all 0.3s ease;
+visibility: hidden;
+opacity: 0;
+
+
+}
+#img{
+  display: block;
+  position: relative;
+  left: 25%;
+  max-width: 300px;
+  max-height: 200px;
+}
+#icon{
+  position: absolute;
+  top: 10px;
+  left: 90%;
+  font-size: 2rem;
+  background: #282B28;
+  color: #F4D35E;
+  border-radius: 10px;
+  cursor: pointer;
+transition: all 0.3s ease;
+}
+#icon:hover{
+   transform: rotate(180deg);
+}
+#head1{
+  position: relative;
+  top: -20px;
+
+}
+#par1{
+  position: relative;
+  top: -60px;
+font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+
+}
+#btn2{
+  position: relative;
+  width: 250px;
+  height: 50px;
+  padding: 5px 10px;
+  background: #282B28;
+  color: #F4D35E;
+  border: none;
+  border-radius: 7px;
+  top: -70px;
+  left: 20%;
+  cursor: pointer;
+  font-size: 1.4rem;
+
+}
+#btn3{
+    position: relative;
+  width: 150px;
+  height: 50px;
+  padding: 5px 10px;
+  background: #fff;
+  color: #282B28;
+  border: none;
+  border-radius: 7px;
+  top: -90px;
+  left: 33%;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+#icon2{
+  position: absolute;
+  font-size: 3rem;
+  background: #F4D35E;
+  top: 20px;
+  left: 30px;
+  border-radius: 20px;
+}
+#head{
+  display: inline;
+  position:absolute;
+  top: 20px;
+  left: 80px;
+  font-family: 'Poppins', sans-serif;
+  color: #F4D35E;
+  font-size: 2rem;
+
+}
+.anime{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-200px);
+}
+.divi2{
+  position: relative;
+  top: -80px;
+  font-size: 2rem;
+  left: 35px;
+  
+}
+#icons1{
+  cursor: pointer;
+  position: absolute;
+  left: 80px;
+}
+#icons2{
+  cursor: pointer;
+   position: absolute;
+  left: 130px;
+  
+}
+#icons3{
+  cursor: pointer;
+   position: absolute;
+  left: 180px;
+}
+#icons4{
+  cursor: pointer;
+   position: absolute;
+  left: 230px;
+}
+.anime2{
+  color: red;
+}
+.anim2{
+  color: red;
+}
+#par2{
+ position: absolute;
+ top: 550px;
+ left: 125px;
+
+
+}
+
+#par3{
+ position: absolute;
+ top: 550px;
+ left: 175px;
+
+
+}
+#linkk{
+  position: absolute;
+  top: 550px;
+  left: 268px;
+  visibility: hidden;
+  transition:all 0.3s ease;
+}
+.anime3{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px) rotate(360deg);
+
+}
+.main2{
+  width: 400px;
+  height: 600px;
+  background: #F4D35E;
+  position: relative;
+  top: 400px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+  z-index: -5;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease;
+
+}
+
+#img2{
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 38%;
+  border: 2px solid whitesmoke;
+}
+#input1{
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 170px;
+  padding: 15px 5px;
+  background: #282B28;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+#input2{
+    position: absolute;
+  top: 50px;
+  left: 210px;
+  width: 170px;
+  padding:15px 5px;
+  background: #282B28;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+.but1{
+  position: relative;
+  top: 170px;
+  width: 90px;
+  height: 90px;
+  padding: 5px 5px;
+  background: #282B28;
+  color: whitesmoke;
+  border:1.5px solid whitesmoke;
+  cursor: pointer;
+  border-radius: 50%;
+  left: 7px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+.but1:hover{
+  background: #282b28d0;
+}
+#par4{
+  position: absolute;
+  top: 350px;
+  left: 50px;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(
+149deg, rgb(208, 255, 0) 0%, rgba(37,36,35,1) 19%, rgba(37,36,35,1) 79%, rgba(208, 255, 0) 100%);
+padding: 10px ;
+border: 1.5px solid whitesmoke;
+border-radius: 10px;
+color: whitesmoke;
+
+text-align: center;
+}
+#btn8{
+  position: absolute;
+  top: 450px;
+  left: 20%;
+  width: 250px;
+  text-align: center;
+  background: whitesmoke;
+  color: #282B28;
+  font-family: 'Fruktur', cursive;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 30px;
+  font-size: 2rem;
+  cursor: pointer;
+
+}
+#tip1{
+  position: absolute;
+  top: 570px;
+  left: 20px;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn8:hover{
+  background: rgba(128, 128, 128, 0.562);
+  border: 1.5px solid #282B28;
+}
+.anime4{
+  transform: translateY(-200px) translateX(-600px) scale(1.2);
+  visibility: visible;
+  opacity: 1;
+  z-index: 50;
+}
+.anime5{
+  visibility: hidden;
+}
+#main3{
+  position: absolute;
+  top: 570px;
+  left: 85%;
+  width: 50px;
+  height: 20px;
+  background: #282B28;
+  border-radius: 7px;
+
+}
+#btn9{
+
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+}
+.anime6{
+  transform: translateX(30px);
+  background: gold;
+}
+.game{
+   width: 400px;
+  height: 600px;
+  background: #F4D35E;
+  position: relative;
+  top: -200px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease;
+}
+#img5{
+position: absolute;
+ border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 38%;
+  border: 2px solid whitesmoke;
+}
+.game-body{
+  top: 100px;
+  left: 12px;
+  position: absolute;
+  width: 370px;
+  height: 200px;
+  background: whitesmoke;
+  
+  
+  
+}
+#character{
+  position: absolute;
+  top: 140px;
+}
+#rode{
+  position: absolute;
+  color: gray;
+  top: 140px;
+  left: -15px;
+}
+#rode2{
+  position: absolute;
+  color: gray;
+  top: 180px;
+  left: -10px;
+}
+#tree{
+  position: absolute;
+  top: 120px;
+  left: 90%;
+  animation: move 3s infinite linear;
+}
+#tree2{
+  position: absolute;
+  top: 155px;
+  left: 90%;
+  animation: move 1.5s infinite linear;
+}
+#tree3{
+  position: absolute;
+  top: 120px;
+  left: 90%;
+  animation: move 5s infinite linear;
+}
+#tree4{
+  position: absolute;
+  top: 120px;
+  left: 90%;
+  animation: move 1.75s infinite linear;
+}
+#tree6{
+  position: absolute;
+  top: 120px;
+  left: 90%;
+  animation: move 1.8s infinite linear;
+}
+#tree5{
+  position: absolute;
+  top: 155px;
+  left: 90%;
+  animation: move 4s infinite linear;
+}
+
+@keyframes move {
+  0%{
+    transform: translateX(0);
+  }
+ 
+  100%{
+    transform: translateX(-350px);
+  }
+  
+}
+#cloud{
+  position: absolute;
+  left: 90%;
+  top: 4px;
+  font-size: 1.4rem;
+  animation: move 1.9s infinite linear;
+}
+#cloud2{
+  position: absolute;
+  left: 90%;
+  top: 24px;
+  font-size: 1.4rem;
+  animation: move 2s infinite linear;
+}
+#cloud3{
+  position: absolute;
+  left: 90%;
+  top: 24px;
+  font-size: 1.4rem;
+  animation: move 3s infinite linear;
+}
+#cloud4{
+  position: absolute;
+  left: 90%;
+  top: 4px;
+  font-size: 1.4rem;
+  animation: move 4s infinite linear;
+}
+#cloud5{
+  position: absolute;
+  left: 90%;
+  top: 4px;
+  font-size: 1.4rem;
+  animation: move 5s infinite linear;
+}
+#cloud6{
+  position: absolute;
+  left: 90%;
+  top: 24px;
+  font-size: 1.4rem;
+  animation: move 6s infinite linear;
+}
+#cloud7{
+  position: absolute;
+  left: 90%;
+  top: 4px;
+  font-size: 1.4rem;
+  animation: move 2.2s infinite linear;
+}
+#cloud8{
+  position: absolute;
+  left: 90%;
+  top: 4px;
+  font-size: 1.4rem;
+  animation: move 2.9s infinite linear;
+}
+#close-game{
+  
+  position: absolute;
+  top: 10px;
+  left: 90%;
+  font-size: 2rem;
+  background: #282B28;
+  color: #F4D35E;
+  border-radius: 10px;
+  cursor: pointer;
+transition: all 0.3s ease;
+}
+#close-game:hover{
+   transform: rotate(180deg);
+}
+#parde{
+  top: 100px;
+  left: -5px;
+  position: absolute;
+  width: 405px;
+  height: 200px;
+  background: whitesmoke;
+  border: 1.5px solid #282B28;
+  border-radius: 3px;
+  text-align: center;
+  font-family: 'Fruktur', cursive;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease;
+
+}
+#headi{
+  position: absolute;
+  top: 75px;
+  left: 30%;
+  color:darkblue ;
+}
+#btn10{
+  position: absolute;
+  top: 330px;
+  left: 70px;
+  width: 270px;
+  height: 40px;
+  border: none;
+  background: #282B28;
+  color: #F4D35E;
+  border-radius: 7px;
+   font-family: 'Fruktur', cursive;
+   font-size: 2rem;
+   cursor: pointer;
+
+}
+#btn11{
+  position: absolute;
+  top: 390px;
+  left: 100px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: #fff;
+  color: #F4D35E;
+  border-radius: 7px;
+   font-family: 'Fruktur', cursive;
+   font-size: 2rem;
+   cursor: pointer;
+
+}
+#icons11{
+  position: absolute;
+  font-size: 2.5rem;
+  top: 460px;
+  left: 160px;
+  cursor: pointer;
+}
+#icons22{
+  position: absolute;
+  font-size: 2.5rem;
+  top: 460px;
+  left: 200px;
+  cursor: pointer;
+}
+#par22{
+  position: absolute;
+  font-family: 'Fruktur', cursive;
+  top: 500px;
+  left: 175px;
+
+}
+#par33{
+  position: absolute;
+  font-family: 'Fruktur', cursive;
+  top: 500px;
+  left: 217px;
+
+}
+.anime-game{
+  transform: translateY(-200px) scale(1.2);
+  visibility: visible;
+  opacity: 1;
+}
+.anime-parde{
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+#btn10:hover{
+  background: rgb(39, 65, 65);
+
+}
+#btn11:hover{
+  background: whitesmoke;
+}
+.anime-hey{
+  color: red;
+}
+#tip2{
+    position: absolute;
+  top: 570px;
+  left: 20px;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#btn99{
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.coloro{
+   width: 400px;
+  height: 600px;
+  background: #F4D35E;
+  position: absolute;
+  top: 500px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  
+
+  transition: all 1s ease;
+  
+}
+#wall{
+  background: red;
+font-family: 'Poppins', sans-serif;
+width: 100px;
+height: 100px;
+left: 100px;
+text-align: center;
+top: 20px;
+border: 2px solid #282B28;
+position:relative;
+border-radius: 7px;
+font-size: 0.5rem;
+}
+#wall2{
+  background: blue;
+  font-family: 'Poppins', sans-serif;
+  width: 100px;
+height: 100px;
+left: 200px;
+top: -80px;
+position: relative;
+border-radius: 7px;
+text-align: center;
+border: 2px solid #282B28;
+font-size: 0.5rem;
+}
+#wall3{
+  background: greenyellow;
+  font-family: 'Poppins', sans-serif;
+  width: 100px;
+height: 100px;
+left: 100px;
+top: -80px;
+border: 2px solid #282B28;
+position: relative;
+font-size: 0.5rem;
+border-radius: 7px;
+text-align: center;
+}
+#wall4{
+  background: purple;
+  font-family: 'Poppins', sans-serif;
+  width: 100px;
+height: 100px;
+left: 200px;
+border: 2px solid #282B28;
+top: -180px;
+font-size: 0.5rem;
+position: relative;
+border-radius: 7px;
+text-align: center;
+}
+#wall-id{
+  position: relative;
+  top: 30px;
+  
+}
+#wall-id2{
+  position: relative;
+  top: 30px;
+  
+}
+  
+#wall-id3{
+  position: relative;
+  top: 30px;
+  
+}
+  
+#wall-id4{
+  position: relative;
+  top: 30px;
+  
+}
+#but-color{
+  position: relative;
+  left: 200px;
+  border: none;
+  background: #282B28;
+  color: gold;
+  width: 270px;
+  height: 40px;
+  top: -120px;
+  border-radius: 8px;
+  cursor: pointer;
+  left: 70px;
+  font-family: 'Fruktur', cursive;
+  font-size: 2rem;
+  
+
+
+}
+#span2{
+  color: whitesmoke;
+}
+#span3{
+  color: yellowgreen;
+}
+#span1{
+  color: rgb(135, 50, 205);
+}
+#but-color2{
+  position: relative;
+  left: 200px;
+  border: none;
+  background: whitesmoke;
+  color: gold;
+  width: 200px;
+  height: 40px;
+  top: -80px;
+  border-radius: 8px;
+  cursor: pointer;
+  left: 110px;
+  font-family: 'Fruktur', cursive;
+  font-size: 2rem;
+
+}
+#but-color2:hover{
+  background: gray;
+}
+#btn999{
+   width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+#tip3{
+   position: absolute;
+  top: 570px;
+  left: 20px;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.anime-color{
+  transform: translateY(-300px) translateX(600px) scale(1.2);
+  visibility: visible;
+  opacity: 1;
+}
+.anime87{
+  transform: translateX(30px);
+  background: gold;
+}
+.Swich{
+   width: 400px;
+  height: 600px;
+  background: #F4D35E;
+  position: absolute;
+  top: 500px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease;
+   
+
+}
+#swich-num{
+  font-family: 'Fruktur', cursive;
+  position: relative;
+  top: 60px;
+  left: 48%;
+}
+#swich-body{
+  position: relative;
+  width: 350px;
+  height: 30px;
+  background-color: #282B28;
+  border-radius: 18px;
+  transition: all 0.3s linear;
+  top: 80px;
+  left: 20px;
+
+
+}
+#swich-char{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  left: 47.5%;
+  transition: all 0.3s linear;
+}
+#swich-btn{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  background: #282B28;
+  color: whitesmoke;
+  font-family: 'Fruktur', cursive;
+  font-size: 1.1rem;
+  top: 120px;
+  left: 95px;
+  cursor: pointer;
+
+}
+#swich-btn2{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  background: #282B28;
+  color: whitesmoke;
+  font-family: 'Fruktur', cursive;
+  font-size: 1.1rem;
+  top: 220px;
+  left: 45px;
+  cursor: pointer;
+
+}
+#swich-btn3{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  background: #282B28;
+  color: whitesmoke;
+  font-family: 'Fruktur', cursive;
+  font-size: 1.1rem;
+  top: 120px;
+  left: -5px;
+  cursor: pointer;
+
+}
+#swich-btn4{
+   position: relative;
+  left: 200px;
+  border: none;
+  background: whitesmoke;
+  color: rgb(161, 145, 52);
+  width: 200px;
+  height: 40px;
+  top: 260px;
+  border-radius: 8px;
+  cursor: pointer;
+  left: 110px;
+  font-family: 'Fruktur', cursive;
+  font-size: 2rem;
+}
+#swich-btn4:hover{
+background: darkslateblue;
+}
+#btn-swich1{
+   width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.anime-swich{
+  transform: translateY(500px) translateX(-600px) scale(1.2); 
+  visibility: visible;
+  opacity: 1;
+}
+.review{
+   width: 400px;
+  height: 600px;
+  background: #F4D35E;
+  position: absolute;
+  top: 500px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease;
+}
+#img6{
+  position: absolute;
+ border-radius: 50%;
+  position: absolute;
+  top:10px;
+  transition: all 0.3s linear;
+  left: 35%;
+  border: 2px solid whitesmoke;
+}
+#lili4{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  position: relative;
+  transition: all 0.3s linear;
+  top: 90px;
+  left: 42.5%;
+}
+#lili2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  position: relative;
+  top: 90px;
+  left: 18%;
+  transition: all 0.3s linear;
+  color: whitesmoke;
+}
+#lili3{
+  text-align: center;
+   font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  position: relative;
+  top: 250px;
+  left: 0;
+  top: 120px;
+  transition: all 0.3s linear;
+  color: #282B28;
+  
+}
+#lili-main{
+  position: absolute;
+  left:73px;
+  top: 70px;
+  width: 250px;
+  height: 400px;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  border-bottom: 2px solid gray;
+   border-top: 2px solid gray;
+   transition: all 0.3s linear;
+}
+#icon-img{
+  position: relative;
+  top: 120px;
+  left:35%;
+  transition: all 0.3s linear;
+  
+}
+#next{
+  border: none;
+  background: #F4D35E;
+  font-size: 5rem;
+  color: #282B28;
+  position: absolute;
+  top: 200px;
+  cursor: pointer;
+  left: 80%;
+}
+#last{
+  border: none;
+  background: #F4D35E;
+  font-size: 5rem;
+  color: #282B28;
+  position: absolute;
+  cursor: pointer;
+  top: 200px;
+  left: 0;
+}
+#iconic{
+  position: absolute;
+  top: 500px;
+  left: 47%;
+  background: #282B28;
+  color: #F4D35E;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 6s ease;
+}
+#iconic:hover{
+  transform: rotate(360deg);
+}
+.anime-rev{
+  transform: translateY(500px)  scale(1.2);
+  visibility: visible;
+  opacity: 1;
+}
+#btn-rev1{
+   width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.anime88{
+  transform: translateX(30px);
+  background: gold;
+}
+.menu{
+    width: 400px;
+  height: 600px;
+  background: #F4D35E;
+  position: absolute;
+  top: 500px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+ 
+  transition: all 1s ease;
+}
+
+#menu-bar3{
+  position: relative;
+  border: none;
+  background: #F4D35E;
+  font-size: 4rem;
+   padding: 0;
+  border-radius: 50%;
+  color: #282B28;
+  top: 70px;
+  left: 9%;
+  cursor: pointer;
+}
+
+#menu-up{
+  padding-top: 0px;
+}
+
+.ul-up{
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+    height: 0;
+    
+    background: #F4D35E;
+    position:relative;
+    top: -80px;
+    transition:all 1s ease ;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px ;
+    
+
+}
+ul li{
+  margin-top: 0px;
+  border-bottom: 1.5px solid #282B28;
+  border-top: 1.5px solid #282B28;
+  padding:10px 0px;
+  background: #fff;
+  
+}
+
+ul li a{
+text-decoration: none;
+color: #282B28;
+font-size: 1.5rem;
+font-family: 'Fruktur', cursive;
+
+
+}
+.menu-anime{
+  height: 330px;
+    overflow: hidden;
+    
+    
+}
+.ul-left{
+    list-style: none;
+    
+    overflow: hidden;
+    height: 330;
+    width: 0;
+    
+    background: #F4D35E;
+    position:relative;
+    top: 100px;
+    transition:all 1s ease ;
+    
+
+}
+.menu-anime2{
+  width:400px;
+    overflow: hidden;
+    
+    
+}
+.ul-rast{
+    list-style: none;
+    
+    overflow: hidden;
+    height: 330;
+    width: 398px;
+    text-align: right;
+    opacity: 0;
+    background: #F4D35E;
+    position:absolute;
+    top: 140px;
+    transform: translateX(400px);
+    transition:all 1s ease ;
+    
+
+}
+.menu-anime3{
+  transform: translateX(0px);
+  width:398px;
+  opacity: 1;
+    overflow: hidden;
+    
+    
+}
+.question{
+   width: 400px;
+  height: 600px;
+  background: #F4D35E;
+  position: absolute;
+  top: 500px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  transition: all 1s ease;
+   visibility: hidden;
+  opacity: 0;
+}
+#question-head{
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  top: 60px;
+  left: 24%;
+}
+.main-qestion{
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  background: whitesmoke;
+  top: 130px;
+  left: 12%;
+  border-radius: 3px;
+}
+h5{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
+.javab{
+  position: relative;
+  height: 60px;
+  background: whitesmoke;
+  top: 20px;
+  border-top: 1.5px solid gray;
+  display:none;
+
+}
+#clicks1{
+  position: absolute;
+  left: 90%;
+  top: 5px;
+  border: none;
+  background: whitesmoke;
+  color: #F4D35E;
+  font-size: 1.2rem;
+top: 11.5px;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.main-qestion2{
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  background: whitesmoke;
+  top: 180px;
+  left: 12%;
+  border-radius: 3px;
+}
+h5{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
+.javab2{
+  position: relative;
+  height: 60px;
+  background: whitesmoke;
+  top: 20px;
+  border-top: 1.5px solid gray;
+  display: none;
+
+}
+#clicks12{
+  position: absolute;
+  left: 90%;
+  top: 11.5px;
+  border: none;
+  background: whitesmoke;
+  color: #F4D35E;
+  font-size: 1.2rem;
+  
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.main-qestion3{
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  background: whitesmoke;
+  top: 330px;
+  left: 12%;
+  border-radius: 3px;
+}
+h5{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
+.javab3{
+  position: relative;
+  height: 60px;
+  background: whitesmoke;
+  top: 20px;
+  border-top: 1.5px solid gray;
+  display: none;
+  opacity: 0;
+  transition: all 5s ease;
+
+}
+#clicks123{
+  position: absolute;
+  left: 90%;
+  top: 5px;
+  border: none;
+  background: whitesmoke;
+  color: #F4D35E;
+  font-size: 1.2rem;
+  top: 11.5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.joda3{
+  position: relative;
+  top: -100px;
+}
+.joda{
+  position: relative;
+  top: 0px;
+}
+.joda2{
+  position: relative;
+  top: 0px;
+ 
+}
+.show{
+ 
+  height: 60px;
+}
+.show2{
+ opacity: 1;
+  display: block;
+}
+.xom{
+transform: rotate(45deg);
+}
+#closing{
+  position: relative;
+  top: 325px;
+  left: -61px;
+  border: none;
+  border-radius: 7px;
+  background:whitesmoke;
+  color: #3F5EBC;
+  width: 100px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#moring{
+  position: relative;
+  top: 280px;
+  left: 24%;
+  border: none;
+  border-radius: 7px;
+  background:#3F5EBC ;
+  color: whitesmoke;
+  width: 200px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.anime-qaa{
+  transform: translateY(500px) translateX(600px)   scale(1.2);
+  visibility: visible;
+  opacity: 1;
+}
+  
+#btn-qaa2{
+   width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.anime89{
+  transform: translateX(30px);
+  background: gold;
+}
+.hard{
+   width: 400px;
+  height: 600px;
+  background: #F4D35E;
+  position: absolute;
+  top: 500px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease;
+   
+}
+#hard-head{
+  position: absolute;
+  top: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: crimson;
+  left: 31%;
+
+  
+}
+#inder{
+  color: white;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 70px;
+  left: 40%;
+
+}
+.main-hard{
+  position: relative;
+  width: 200px;
+  height: 120px;
+  background: whitesmoke;
+  left: 50%;
+  transform: translateX(-50%);
+  top:15%;
+  border: 2px solid #282B28;
+  border-radius: 10px;
+  display: block;
+  
+}
+.hard-img{
+  position: relative;
+  border-top-left-radius: 10px ;
+   border-bottom-right-radius: 10px ;
+  
+}
+.hard-title{
+  position:relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: crimson;
+  top: -80px;
+  left: 58%;
+
+}
+.hard-info{
+  text-align: center;
+   position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #282B28;
+  top: -80px;
+  left: 40%;
+  width: 60%;
+}
+.hard-btn{
+  border: none;
+  position: relative;
+  background: #282B28;
+  color: crimson;
+  font-size: 1.4rem;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hard-btn:hover{
+  background: crimson;
+  color: #F4D35E;
+}
+#hard-close{
+  position: absolute;
+  top: 10px;
+  left: 88%;
+  border: none;
+  background: #282B28;
+  width: 40px;
+  height: 40px;
+  font-size: 2.5rem;
+  color: crimson;
+  border-radius: 7px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+#hard-close:hover{
+  transform: rotate(180deg);
+}
+.anime-menu{
+  transform: translateY(1300px) translateX(-600px) scale(1.2); 
+  visibility: visible;
+  opacity: 1;
+}
+.anime1000{
+  transform: translateX(30px);
+  background: gold;
+}
+#btn-menu2{
+     width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.bazi{
+    width: 400px;
+  height: 600px;
+  background:#F4D35E;
+  background-size: cover;
+  position: absolute;
+  top: 500px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+   opacity: 0;
+   visibility: hidden;
+  transition: all 1s ease;
+}
+.bazi-body{
+  position: relative;
+  width: 350px;
+  height: 350px;
+  top: 70px;
+  border-radius: 8px;
+  left: 6%;
+   background:url("./pictures/back5.jpg") ;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  border: 2px groove #282B28;
+}
+.bazi-btn{
+  position: absolute;
+  top: 450px;
+  left: 50px;
+  border: none;
+  border-radius: 5px;
+ background: rgb(185,202,217);
+background: linear-gradient(0deg, rgba(185,202,217,1) 0%, rgba(253,45,192,1) 100%);;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.bazi-btn2{
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  border: none;
+  border-radius: 5px;
+ background: rgb(185,202,217);
+background: linear-gradient(0deg, rgba(185,202,217,1) 0%, rgba(253,45,192,1) 100%);;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.bazi-btn3{
+  position: absolute;
+  top: 450px;
+  left: 230px;
+  border: none;
+  border-radius: 5px;
+   background: rgb(185,202,217);
+background: linear-gradient(0deg, rgba(185,202,217,1) 0%, rgba(253,45,192,1) 100%);;
+  color: white;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.bazi-btn4{
+  position: absolute;
+  top: 450px;
+  left: 295px;
+  border: none;
+  border-radius: 5px;
+   background: rgb(185,202,217);
+background: linear-gradient(0deg, rgba(185,202,217,1) 0%, rgba(253,45,192,1) 100%);;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+#player{
+  position: absolute;
+  top: 150px;
+  left: 45%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: url("./pictures/circle-33085_1280.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: all 0.5s linear;
+}
+.playermove{
+  transform: translateX(20px);
+}
+.gate{
+  position:absolute;
+  width: 40px;
+  height: 40px;
+  top:378px;
+   background: url("./pictures/basket-159430_1280.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 32px;
+}
+#bx2{
+  position: absolute;
+  top: 10px;
+  left: 90%;
+  font-size: 2rem;
+  background: #282B28;
+  color: pink;
+  border-radius: 10px;
+  cursor: pointer;
+transition: all 0.3s ease;
+border: none;
+
+
+
+}
+.bx-info-square{
+ position: absolute;
+  top: 10px;
+  left: 3%;
+  font-size: 2rem;
+  background: #282B28;
+  color:pink;
+  border-radius: 10px;
+  cursor: pointer;
+transition: all 0.3s ease;
+border: none;
+}
+.bx-x:hover{
+  transform: rotate(180deg);
+}
+.bx-info-square:hover{
+  transform: rotate(360deg);
+}
+.bazi-btn:hover{
+  border: 1.5px groove #282B28;
+}
+.bazi-btn2:hover{
+  border: 1.5px groove #282B28;
+}
+.bazi-btn3:hover{
+  border: 1.5px groove #282B28;
+}
+.bazi-btn4:hover{
+  border: 1.5px groove #282B28;
+}
+.anime50{
+   transform: translateY(1300px)  scale(1.2); 
+  visibility: visible;
+  opacity: 1;
+}
+#btn-qaa22{
+   width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 50%;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.anime893{
+  transform: translateX(30px);
+  background: gold;
+}
+.chess{
+   width: 400px;
+  height: 600px;
+  background:#F4D35E;
+  background-size: cover;
+  position: absolute;
+  top: 500px;
+  left: 40%;
+  border: 2px solid whitesmoke;
+  border-radius: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease;
+}
+.chess-body1{
+  position:absolute;
+  top: 100px;
+  left: 70px;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border: 1.5px solid black;
+}
+.chess-body2{
+  position:absolute;
+  top: 100px;
+  left: 150px;
+  width: 80px;
+  height: 80px;
+  background: #282B28;
+  border: 1.5px solid black;
+}
+.chess-body3{
+  position:absolute;
+  top: 100px;
+  left: 230px;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border: 1.5px solid black;
+}
+.chess-body4{
+  position:absolute;
+  top: 180px;
+  left: 70px;
+  width: 80px;
+  height: 80px;
+  background: #282B28;
+  border: 1.5px solid black;
+}
+
+.chess-body5{
+  position:absolute;
+  top: 180px;
+  left: 150px;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border: 1.5px solid black;
+}
+.chess-body6{
+  position:absolute;
+  top: 180px;
+  left: 230px;
+  width: 80px;
+  height: 80px;
+  background: #282B28;
+  border: 1.5px solid black;
+}
+.chess-body7{
+  position:absolute;
+  top: 260px;
+  left: 70px;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border: 1.5px solid black;
+}
+.chess-body8{
+  position:absolute;
+  top: 260px;
+  left: 150px;
+  width: 80px;
+  height: 80px;
+  background: #282B28;
+  border: 1.5px solid black;
+}
+.chess-body9{
+  position:absolute;
+  top: 260px;
+  left: 230px;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border: 1.5px solid black;
+}
+#horse{
+  position: absolute;
+  top: 280px;
+  left: 43%;
+  cursor: pointer;
+  
+  
+}
+#rokh{
+  position: absolute;
+  top: 120px;
+  left: 43%;
+  cursor: pointer;
+}
+#chess-close1{
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 73%);
+color: #282B28;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-radius: 8px;
+top: 400px;
+left: 24%;
+cursor: pointer;
+}
+.anime-chess{
+transform: translateY(1300px) translateX(600px)  scale(1.2); 
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
